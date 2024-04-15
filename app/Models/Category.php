@@ -11,7 +11,7 @@ class Category extends Model
 {
     use HasFactory, HasTranslations;
 
-    protected $fillable = ["name", "icon"];
+    protected $fillable = ["name", "icon", "order"];
 
     public array $translatable = ["name"];
 
